@@ -1,0 +1,91 @@
+header {
+    nav {
+        div {
+            div{
+                ul{
+                    li{
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    .divTextoRemeras{
+        text-align: $jcCenter;
+        text-decoration: underline;
+        padding-top: 2rem;
+        font-size: $widthImagenes;
+        div{
+            text-align: $jcCenter;
+            text-decoration: underline;
+            padding-top: 2rem;
+            font-size: $fontSizeIndex;
+        }
+    }
+    .divRemeras {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        .imagenes {
+            width: $widthImagenes;
+        }
+    }
+    .divTextoBuzos {
+        display: flex;
+        justify-content: $jcCenter;
+        text-align: $jcCenter;
+        text-decoration: underline;
+        padding-top: 4.3rem;
+        font-size: $fontSizeIndex;
+        div {
+        }
+    }
+    .divBuzos {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        .imagenes {
+            width: $widthImagenes;
+        }
+    }
+    .divTextoPantalones {
+        text-align: $jcCenter;
+        text-decoration: underline;
+        padding-top: 2rem;
+        font-size: $fontSizeIndex;
+    }
+    .divPantalones {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        .imagenes {
+            width: $widthImagenes;
+        }
+    }
+}
+
+footer {
+    div{
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+    }
+
+    h3 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0px 0px 0px 0px;    
+    }
+}

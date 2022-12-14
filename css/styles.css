@@ -1,0 +1,407 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+  /*BOTONES*/
+.boton {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+  /*MQ, ESTILOS DE LA PAGE UNO*/
+main .divTextoRemeras {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2rem;
+  font-size: 16rem; }
+  main .divTextoRemeras div {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2rem;
+    font-size: 2rem; }
+
+main .divRemeras {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around; }
+  main .divRemeras .imagenes {
+    width: 16rem; }
+
+main .divTextoBuzos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 4.3rem;
+  font-size: 2rem; }
+
+main .divBuzos {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around; }
+  main .divBuzos .imagenes {
+    width: 16rem; }
+
+main .divTextoPantalones {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2rem;
+  font-size: 2rem; }
+
+main .divPantalones {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around; }
+  main .divPantalones .imagenes {
+    width: 16rem; }
+
+footer h3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px 0px 0px 0px; }
+
+@media screen and (min-width: 992px) {
+  main .h1PageUno {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+    padding-bottom: 1rem; }
+  main .cardsBuzos {
+    display: flex;
+    justify-content: space-around; }
+    main .cardsBuzos .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+    main .cardsBuzos .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+    main .cardsBuzos .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+  main .cardsPantalones {
+    display: flex;
+    justify-content: space-around; }
+    main .cardsPantalones .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+    main .cardsPantalones .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+  main .cardsRemeras {
+    display: flex;
+    justify-content: space-around; }
+    main .cardsRemeras .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+    main .cardsRemeras .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+    main .cardsRemeras .card .boton {
+      top: 6.25rem;
+      align-self: center;
+      padding: 0.5rem; }
+  main footer h3 {
+    color: white;
+    text-align: center;
+    margin: 0px; }
+  main .card-text {
+    color: black; } }
+
+@media screen and (min-width: 720px) {
+  .mainPageUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .card {
+    margin: 1.6rem 0rem 1.6rem 0rem; }
+  .cardsBuzos {
+    justify-content: center; }
+  .cardsPantalones {
+    justify-content: center; }
+  .cardsRemeras {
+    justify-content: center; }
+  .h1PageUno {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 460px) {
+  .imgHidden {
+    display: none; }
+  .h1PageUno {
+    text-decoration: underline;
+    text-align: center; }
+  .cardsBuzos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .cardsPantalones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .cardsRemeras {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+main .formPageDos {
+  display: grid;
+  grid-template-areas: 'form';
+  justify-items: center;
+  height: 100%; }
+  main .formPageDos .formulario {
+    display: grid;
+    grid-area: form; }
+
+main .divParrafoPageDos {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  padding-top: 0.5rem; }
+
+/*MQ, ESTILOS DE LA PAGE TRES*/
+@media screen and (min-width: 992px) {
+  .h2PageTres {
+    color: black; }
+  main .gridPageTres {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%; }
+    main .gridPageTres .caja1 {
+      grid-column: 1/5;
+      text-align: center;
+      margin: 1.5rem 1rem 0.5rem 1rem;
+      padding-top: 2.8rem; }
+      main .gridPageTres .caja1 .h1PageTres {
+        color: tomato;
+        text-decoration: underline; }
+    main .gridPageTres .caja2 {
+      grid-column: 1/5;
+      text-align: center;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 0rem; }
+      main .gridPageTres .caja2 .h2PageTres {
+        text-decoration: underline; }
+      main .gridPageTres .caja2 .pCaja2 {
+        color: black;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 1.5rem; }
+      main .gridPageTres .caja2 .textoCaja2 {
+        font-size: 1.2rem; }
+    main .gridPageTres .caja3 {
+      grid-column: 1/5;
+      text-align: center;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem; }
+      main .gridPageTres .caja3 .h2PageTres {
+        text-decoration: underline; }
+      main .gridPageTres .caja3 p {
+        color: black;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 1.2rem; }
+    main .gridPageTres .caja4 {
+      grid-column: 1/5;
+      text-align: center;
+      padding-top: 1rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      padding-bottom: 1rem; }
+      main .gridPageTres .caja4 .h2PageTres {
+        text-decoration: underline; }
+      main .gridPageTres .caja4 p {
+        color: black;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 1.2rem; }
+    main .gridPageTres .caja5 {
+      grid-column: 1/5;
+      text-align: center;
+      padding-top: 1rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      padding-bottom: 1rem; }
+      main .gridPageTres .caja5 .h2PageTres {
+        text-decoration: underline; }
+      main .gridPageTres .caja5 p {
+        color: black;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 1.2rem; }
+  footer .divFooterPageTres {
+    color: white;
+    position: sticky;
+    bottom: 0;
+    width: 100%; } }
+
+@media screen and (min-width: 720px) {
+  .h1PageTres {
+    color: tomato;
+    text-decoration: underline; }
+  .h2PageTres {
+    color: tomato;
+    text-decoration: underline; }
+  p {
+    color: tomato; } }
+
+/*MQ, ESTILOS PAGE CUATRO*/
+@media screen and (min-width: 992px) {
+
+  .carruselPageCuatro{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pPageCuatro{
+    display: flex;
+    justify-content: center;
+    color: indigo;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    margin-top: 0.8rem;
+  }
+  
+  .divMultimedia{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  main .bodyPageCuatro {
+    background-color: #a7a7a7; }
+    main .bodyPageCuatro .pTextoCarrusel {
+      font-size: 2.5rem;
+      text-align: center;
+      text-decoration: underline; }
+    main .bodyPageCuatro .carruselPageCuatro {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 2rem; }
+  main .codigoDescuento {
+    display: flex;
+    justify-content: center; }
+    main .codigoDescuento .codigoDescuentoImg {
+      border-radius: 2rem;
+      width: 35%;
+      height: 35%;
+      margin-bottom: 1rem; } }
+
+@media screen and (min-width: 720px) {
+  .pTextoCarrusel {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: tomato;
+    text-decoration: underline; }
+  .codigoDescuento {
+    display: flex;
+    justify-content: center; }
+  .codigoDescuentoImg {
+    width: 80%;
+    height: 80%; }
+  .carousel-inner {
+    padding-left: 4.3rem; } }
+
+@media screen and (min-width: 460px) {
+  .pTextoCarrusel {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    color: indigo;
+    text-align: center;
+    padding-top: 0.4rem; }
+  .codigoDescuento {
+    display: flex;
+    justify-content: center; }
+  .codigoDescuentoImg {
+    width: 95%;
+    height: 95%; }
+  .carousel-inner {
+    width: 100%;
+    height: 100%; } }
+
+/*MQ, ESTILOS PAGE CINCO*/
+.h1PageCinco{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+.divTextoBuzosRemeras{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2rem;
+  font-size: 2rem; }
+
+.divBuzosRemeras{
+  display: flex;
+  justify-content: space-around;
+}
+
+.divTextoPantalones{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2rem;
+    font-size: 2rem;}
+
+@media screen and (min-width: 720px){ 
+  .divTextoPantalones{
+    text-align: center;
+  }
+}  
+
+@media screen and (max-width: 430px){
+  .divBuzosRemeras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .card {
+      margin: .5rem 0rem .5rem 0rem;
+    }
+    }
+      
+
+
+/*HOVERS*/
+.navbar-brand:hover{
+  background-color: #a7a7a7;
+  border-radius: 30px;
+  transition: .2s;
+  font-size: 1.3rem;
+}
+
+.nav-item:hover{
+  background-color: #a7a7a7;
+  border-radius: 30px;
+  transition: .2s;
+  font-size: 1.1rem;
+}
+
+/*ESTILOS DE LAS REDES SOCIALES*/
+.redesSociales{
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagenesRedesSociales{
+  border-radius: 60px;
+}

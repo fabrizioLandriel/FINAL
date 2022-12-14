@@ -1,0 +1,25 @@
+//mixins pageUno
+@mixin cardsBPR {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin h1PageUno {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+@mixin botonPageUno {
+    top: 6.25rem;
+    align-self: center;
+    padding: 0.5rem;
+}
+
+//mixins pageTres
+@mixin underline {
+    text-decoration: underline;
+}
+

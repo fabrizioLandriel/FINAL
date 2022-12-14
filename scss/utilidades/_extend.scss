@@ -1,0 +1,10 @@
+//declarar los extend y llamarlos aca.
+%extendBotones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    @extend %extendBotones;
+}

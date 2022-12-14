@@ -1,0 +1,154 @@
+@media  screen and (min-width: 992px) { 
+header{
+    nav{
+        div{
+            a{
+            }
+            button{
+                span{
+                }
+            }
+
+            div{
+                ul{
+                    li{
+                        a{
+                        }
+                    }
+
+                    li{
+                        a{
+                        }
+                    }
+
+                    li{
+                        a{
+                        }
+                    }
+
+                    li{
+                        a{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main{
+
+    .bodyPageCuatro{
+            background-color: $bgColorPageCuatro;
+        
+        .pTextoCarrusel{
+            font-size: 2.5rem;
+            text-align: $jcCenter;
+            text-decoration: underline;
+        }
+        .carruselPageCuatro{
+            display: flex;
+            justify-content: $jcCenter;    
+            padding-bottom: 2rem;
+                div{
+                    div{
+                        img{
+                        }
+                    }
+                    div{
+                        img{
+                        }
+                    }
+                    div{
+                        img{
+                        }
+                    }
+                }
+
+                button{
+                    span{
+                    }
+                }
+                button{
+                    span{
+                    }
+                }
+            }
+        }
+        
+        .codigoDescuento{
+            display: flex;
+            justify-content: $jcCenter;
+            .codigoDescuentoImg {
+                border-radius: 2rem;
+                width: 35%;
+                height: 35%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+footer{
+    div{
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .pTextoCarrusel{
+        font-size: 2rem;
+        display: flex;
+        justify-content: $jcCenter;
+        color: tomato;
+        text-decoration: underline;
+    }
+
+    .codigoDescuento{
+        display: flex;
+        justify-content: $jcCenter;
+    }
+    .codigoDescuentoImg{
+        width: 80%;
+        height: 80%;
+    }
+
+    .carousel-inner{
+        padding-left: 4.3rem;
+       
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .pTextoCarrusel{
+        font-size: 1.8rem;
+        text-decoration: underline;
+        color: indigo;
+        text-align: center;
+        padding-top: 0.4rem;
+    }
+    .codigoDescuento{
+        display: flex;
+        justify-content: $jcCenter;
+    }
+    .codigoDescuentoImg{
+        width: 95%;
+        height: 95%;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+}

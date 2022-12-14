@@ -1,0 +1,251 @@
+@media  screen and (min-width: 992px) { 
+header {
+    nav {
+        div {
+            div{
+                ul{
+                    li{
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    .h1PageUno{
+        @include h1PageUno;
+    }
+    .cardsBuzos{
+        @include cardsBPR;
+        .card {
+            img{
+
+            }
+            div {
+                h5{
+
+                }
+                p{
+
+                }
+            }
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+        
+        .card {
+            img{
+
+            }
+            div{
+                h5{
+
+                }
+                p{
+
+                }
+            }
+
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+            
+        }
+
+        .card {
+            img{
+
+            }
+            div{
+                h5{   
+                }
+                p{
+                }
+            }
+            .boton{
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+    }
+
+    .cardsPantalones {
+        @include cardsBPR;
+        .card{
+            img{
+            }
+            div {
+                h5{
+                }
+                p{
+                }
+            }
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+
+        .card{
+            img{
+            }
+            div{
+                h5{
+                }
+                p{
+                }
+            }
+
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+    }
+
+    .cardsRemeras{
+        @include cardsBPR;
+        .card{
+            img{
+            }
+            div{
+                h5{
+                }
+                p{
+                }
+            }
+
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+
+        .card{
+            img{
+            }
+            div{
+                h5{
+                }
+                p{
+                }
+            }
+
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+
+        .card{
+            img{
+            }
+            div{
+                h5{
+                }
+                p{
+                }
+            }
+
+            .boton {
+                @include botonPageUno;
+                a{
+                }
+            }
+        }
+    }
+
+    footer{
+        div{
+            a{
+            img{
+            }
+            }
+            a{
+            img{
+            }
+            }
+            a{
+            img{
+            }
+            }
+        }
+        h3{
+            color: white;
+            text-align: $jcCenter;
+            margin: 0px;
+        }
+    }
+
+    .card-text {
+        color: black;
+    }
+}
+
+}
+
+@media screen and (min-width: 720px) {
+    .mainPageUno {
+        display: flex;
+        flex-direction: column;
+        align-items: $jcCenter;
+    }
+    .card {
+        margin: 1.6rem 0rem 1.6rem 0rem;
+    }
+    .cardsBuzos {
+        justify-content: $jcCenter;
+    }
+    .cardsPantalones{
+        justify-content: $jcCenter;
+    }
+    .cardsRemeras{
+        justify-content: $jcCenter;
+    }
+    .h1PageUno {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    .imgHidden{
+        display: none;
+    }
+    .h1PageUno{
+        text-decoration: underline;
+        text-align: center;
+    }
+    .cardsBuzos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardsPantalones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardsRemeras{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

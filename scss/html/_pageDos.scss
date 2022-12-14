@@ -1,0 +1,98 @@
+header {
+    nav {
+        div{
+            a{
+            }
+            button{
+                span{
+                }
+            }
+
+            div{
+                ul{
+                    li{
+                        a{
+                        }
+                    }
+
+                    li{
+                        a{
+                        }
+                    }
+
+                    li{
+                        a{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main{
+    .formPageDos{
+        display: grid;
+        grid-template-areas: 
+        'form';
+        justify-items: $jcCenter;
+        height: 100%;
+        .formulario{    
+            display: grid;
+            grid-area: form;
+            fieldset{
+                div{
+                    label{
+                    }   
+                    input{
+                    }
+                    div{
+                    }
+                }
+
+                div{
+                    label{
+                    }
+                    input{
+                    }
+                }
+
+                div{
+                    input{
+                    }
+                    label{
+                    }
+                }
+
+                button{
+                }
+            }
+        }
+    }
+
+    .divParrafoPageDos{
+        display: flex;
+        justify-content: $jcCenter;
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        .pPageDos{
+        }
+    }
+}
+
+footer{
+    div{
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+        a{
+        img{
+        }
+        }
+    }
+}

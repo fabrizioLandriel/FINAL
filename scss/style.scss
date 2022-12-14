@@ -1,0 +1,17 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//importamos los archivos secundarios
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+@import "./html/index";
+@import "html/pageUno.scss";
+@import "html/pageDos.scss";
+@import "html/pageTres.scss";
+@import "html/pageCuatro.scss";
+
